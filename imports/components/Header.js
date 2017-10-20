@@ -5,8 +5,10 @@ import PropTypes from 'prop-types'
 export default class Header extends React.Component {
   render() {
     return (
-      <div>
-        <h1>{this.props.title}</h1>
+      <div className="header">
+        <div className="wrapper">
+          <h1>{this.props.title}</h1>
+        </div>
       </div>
     )
   }

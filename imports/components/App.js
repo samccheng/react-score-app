@@ -9,8 +9,10 @@ export default class App extends React.Component {
     return (
       <div>
         <Header title="scorekeeper"/>
-        <AddPlayer />
-        <PlayerList players={this.props.players}/>
+        <div className="wrapper">
+          <AddPlayer />
+          <PlayerList players={this.props.players}/>
+        </div>
       </div>
     )
   }
