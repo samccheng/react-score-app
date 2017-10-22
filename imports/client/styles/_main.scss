@@ -3,6 +3,8 @@
 @import './component/header';
 @import './component/item';
 @import './component/button';
+@import './component/player';
+@import './component/form';
 
 * {
   margin: 0;
@@ -11,6 +13,10 @@
 
 html {
   font-size: 62.5%;
+}
+
+input, button, select {
+  font-size: $size-s;
 }
 
 body {

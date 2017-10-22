@@ -1,9 +1,10 @@
 .button {
-  background: white;
+  background: transparent;
   border: 1px solid $grey;
   color: $grey;
   cursor: pointer;
   font-weight: 600;
+  line-height: 1;
   margin-left: $size-s;
   outline: none;
   padding: $size-s;

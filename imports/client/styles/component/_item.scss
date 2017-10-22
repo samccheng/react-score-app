@@ -5,6 +5,21 @@
   padding: $size-s;
 }
 
+.item--position-1 {
+  background: $red;
+  border-color: $red-darker
+}
+
+.item--position-2 {
+  background: $blue;
+  border-color: $blue-darker;
+}
+
+.item--position-3 {
+  background: $green;
+  border-color: $green-darker;
+}
+
 .item__message {
   font-size: 1.3rem;
   font-style: italic;
